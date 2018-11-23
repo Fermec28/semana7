@@ -17,9 +17,37 @@ setInterval(function(){
 
 
 /* 
-    $().html
-    $().append()
-    $().preppend()
+    $('h1').html()
+    $('h1').html('Jade')
+    $('h1').html()
+    $('h1').html('Jade Makeit Real')
+    $('li').html('<bold> Full stack ROR </bold>')
+    $('ul').append('hola makers')
+    $('ul').append('<li>hola makers</li>')
+    $('ul').prepend('<li>Listos para Programar ?</li>')
+    $('ul').hide()
+    $('ul').show()
+   
     $().show()
     $().hide()
+*/
+
+
+/* 
+    crear ul#familia
+    una funcion que haga append en familia con los valores dados desde la consola
+*/
+
+/*
+    Crear Familia -> integrantes -> []
+
+              -------
+                   agregarIntegrante ()  []<< new person(), agregar al ul
+                   mostrarFamilia() -> Mostar en el DOM 
+                   buscarNombre()-> mostrar solo el que tiene ese nombre 
+
+    crear Persona -> nombre
+                  -> apellido
+                  -> edad
+                  -> tipo  ( abuelo , hijo , tio)
 */
