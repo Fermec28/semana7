@@ -51,3 +51,28 @@ setInterval(function(){
                   -> edad
                   -> tipo  ( abuelo , hijo , tio)
 */
+/*
+Familia = function(name){
+    this.name = name
+    this.integrantes =[]
+}
+
+Familia.prototype.agregarIntegrante= function (nombre,apellido,rol){    
+    this.integrantes.push(new Persona(nombre,apellido,rol))
+}
+
+Persona = function(nombre,apellido,rol){
+    this.nombre = nombre
+    this.apellido= apellido
+    this.rol = rol
+    this.agregarDOM();
+}
+
+Persona.prototype.agregarDOM= function(){
+    $('#familia').append(`<li class = '${rol}'> Hola Soy ${this.nombre} ${this.apellido}, mi rol es ${this.rol}</li>`)
+}
+
+Familia.prototype.buscarRol() = function(rol){
+    
+}
+*/
